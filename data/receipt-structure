@@ -1,0 +1,7 @@
+{
+    "id": "integer",
+    "ofdId": "string",
+    "receiveDate": "string",
+    "subtype": "string",
+    "address": "string"
+}

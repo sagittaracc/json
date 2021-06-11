@@ -8,8 +8,5 @@
     },
     "require": {
         "sagittaracc/arrays": "@dev"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^9"
     }
 }

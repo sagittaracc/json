@@ -1,0 +1,15 @@
+<?php
+
+use sagittaracc\Json;
+
+require 'vendor/autoload.php';
+
+$json = Json::load('e1.txt');
+
+$json->saveAs('data/receipt.csv', null, ['content']);
+$json->saveAs('data/content.csv', 'content', ['items']);
+$json->saveAs('data/items.csv', 'content.items');
+
+$json->getStructure(['content'])->saveAs('data/receipt-structure');
+$json->getStructure(['items'], 'content')->saveAs('data/content-structure');
+$json->getStructure([], 'content.items')->saveAs('data/items-structure');
