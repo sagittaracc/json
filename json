@@ -7,11 +7,11 @@ require 'vendor/autoload.php';
 for ($i = 1; $i <= 2; $i++) {
     $json = Json::load("e$i.txt")->setHeader($i === 1);
 
-    $json->setPath(null)->saveAs('data/receipt.csv', ['content']);
-    $json->setPath('content')->saveAs('data/content.csv', ['items']);
-    $json->setPath('content.items')->saveAs('data/items.csv');
+    $json->except(['content'])->saveAs('data/receipt.csv');
+    $json->read('content')->except(['items'])->saveAs('data/content.csv');
+    $json->read('content.items')->saveAs('data/items.csv');
 }
 
-$json->setPath(null)->getStructure(['content'])->saveAs('data/receipt-structure');
-$json->setPath('content')->getStructure(['items'])->saveAs('data/content-structure');
-$json->setPath('content.items')->getStructure()->saveAs('data/items-structure');
+$json->except(['content'])->getStructure()->saveAs('data/receipt-structure');
+$json->read('content')->except(['items'])->getStructure()->saveAs('data/content-structure');
+$json->read('content.items')->getStructure()->saveAs('data/items-structure');

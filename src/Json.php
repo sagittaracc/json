@@ -26,6 +26,10 @@ class Json
      */
     private $path = null;
     /**
+     * @var array игнорируемые узлы
+     */
+    private $except = [];
+    /**
      * Загружает json данные
      * @param string $input может быть json строкой или путь к файлу .json
      */
@@ -68,11 +72,44 @@ class Json
         return $this;
     }
     /**
-     * Запись в файл
-     * @param string $filename
+     * Алиас для setPath
+     * @param string $path
+     */
+    public function read($path)
+    {
+        return $this->setPath($path);
+    }
+    /**
+     * Задать игнорируемые узлы
      * @param array $except
      */
-    public function saveAs($filename, $except = [])
+    public function setExcept($except)
+    {
+        $this->except = $except;
+
+        return $this;
+    }
+    /**
+     * Алиас для setExcept
+     * @param array $except
+     */
+    public function except($except)
+    {
+        return $this->setExcept($except);
+    }
+    /**
+     * Сброс настроек
+     */
+    public function flush()
+    {
+        $this->path = null;
+        $this->except = [];
+    }
+    /**
+     * Запись в файл
+     * @param string $filename
+     */
+    public function saveAs($filename)
     {
         if ($this->structure) {
             $this->saveStructureAs($filename);
@@ -82,19 +119,20 @@ class Json
         $json = ArrayHelper::getValue($this->jsonData, $this->path);
 
         if (ArrayHelper::isSequential($json)) {
-            $this->saveArrayAs($filename, $json, $except);
+            $this->saveArrayAs($filename, $json);
         }
         else {
-            $this->saveObjectAs($filename, $json, $except);
+            $this->saveObjectAs($filename, $json);
         }
+
+        $this->flush();
     }
     /**
      * Сохраняет массив из json
      * @param string $filename
      * @param array $json
-     * @param array $except
      */
-    private function saveArrayAs($filename, $json, $except)
+    private function saveArrayAs($filename, $json)
     {
         if ($this->headerShown) {
             $keys = implode(';', array_keys($json[0]));
@@ -102,7 +140,7 @@ class Json
         }
 
         foreach ($json as $line) {
-            static::getRidOfUnexpected($line, $except);
+            $this->getRidOfUnexpected($line);
 
             $values = implode(';', array_values($line));
             shell_exec("echo $values >> $filename");
@@ -112,11 +150,10 @@ class Json
      * Сохраняет объект из json
      * @param string $filename
      * @param array $json
-     * @param array $except
      */
-    private function saveObjectAs($filename, $json, $except)
+    private function saveObjectAs($filename, $json)
     {
-        static::getRidOfUnexpected($json, $except);
+        $this->getRidOfUnexpected($json);
 
         if ($this->headerShown) {
             $keys = implode(';', array_keys($json));
@@ -128,19 +165,18 @@ class Json
     }
     /**
      * Структура json
-     * @param array $except
      */
-    public function getStructure($except = [])
+    public function getStructure()
     {
         $this->structure = [];
 
         $json = ArrayHelper::getValue($this->jsonData, $this->path);
 
         if (ArrayHelper::isSequential($json)) {
-            $this->getArrayStructure($json, $except);
+            $this->getArrayStructure($json);
         }
         else {
-            $this->getObjectStructure($json, $except);
+            $this->getObjectStructure($json);
         }
 
         return $this;
@@ -148,11 +184,10 @@ class Json
     /**
      * Структура объекта
      * @param array $json
-     * @param array $except
      */
-    private function getObjectStructure($json, $except)
+    private function getObjectStructure($json)
     {
-        $this->getRidOfUnexpected($json, $except);
+        $this->getRidOfUnexpected($json);
 
         foreach ($json as $key => $value) {
             $this->structure[$key] = gettype($value);
@@ -161,11 +196,10 @@ class Json
     /**
      * Структура массива
      * @param array $json
-     * @param array $except
      */
-    private function getArrayStructure($json, $except)
+    private function getArrayStructure($json)
     {
-        $this->getObjectStructure($json[0], $except);
+        $this->getObjectStructure($json[0]);
     }
     /**
      * Сохранение структуры
@@ -180,11 +214,10 @@ class Json
     /**
      * Вырезать ненужное из массива
      * @param array $json
-     * @param array $except
      */
-    private static function getRidOfUnexpected(&$json, $except)
+    private function getRidOfUnexpected(&$json)
     {
-        foreach ($except as $item) {
+        foreach ($this->except as $item) {
             unset($json[$item]);
         }
     }
