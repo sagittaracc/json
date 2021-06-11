@@ -48,6 +48,11 @@ class Json
      */
     public function saveAs($filename, $path = null, $except = [])
     {
+        if ($this->structure) {
+            $this->saveStructureAs($filename);
+            return;
+        }
+
         $json = ArrayHelper::getValue($this->jsonData, $path);
 
         if (ArrayHelper::isSequential($json)) {
@@ -55,10 +60,6 @@ class Json
         }
         else {
             $this->saveObjectAs($filename, $json, $except);
-        }
-
-        if ($this->structure) {
-            $this->saveStructureAs($filename);
         }
     }
     /**
@@ -100,7 +101,7 @@ class Json
      * @param string|null $path
      * @param array $except
      */
-    public function getStructure($path = null, $except = [])
+    public function getStructure($except = [], $path = null)
     {
         $json = ArrayHelper::getValue($this->jsonData, $path);
 
@@ -110,6 +111,8 @@ class Json
         else {
             $this->getObjectStructure($json, $except);
         }
+
+        return $this;
     }
     /**
      * Структура объекта
@@ -139,9 +142,9 @@ class Json
      */
     private function saveStructureAs($filename)
     {
-        foreach ($this->structure as $column => $type) {
-            shell_exec("echo $column:$type >> $filename");
-        }
+        $structure = json_encode($this->structure, JSON_PRETTY_PRINT);
+
+        file_put_contents($filename, $structure);
     }
     /**
      * Вырезать ненужное из массива
