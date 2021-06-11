@@ -18,6 +18,10 @@ class Json
      */
     private $structure;
     /**
+     * @var boolean выводить заголовок
+     */
+    private $headerShown = true;
+    /**
      * Загружает json данные
      * @param string $input может быть json строкой или путь к файлу .json
      */
@@ -38,6 +42,16 @@ class Json
     public static function load($input)
     {
         return new static($input);
+    }
+    /**
+     * Вывод заголовка
+     * @param boolean $shown
+     */
+    public function setHeader($shown)
+    {
+        $this->headerShown = $shown;
+
+        return $this;
     }
     /**
      * Запись в файл
@@ -67,10 +81,12 @@ class Json
      * @param string|null $path
      * @param array $except
      */
-    private static function saveArrayAs($filename, $json, $except)
+    private function saveArrayAs($filename, $json, $except)
     {
-        $keys = implode(';', array_keys($json[0]));
-        shell_exec("echo $keys >> $filename");
+        if ($this->headerShown) {
+            $keys = implode(';', array_keys($json[0]));
+            shell_exec("echo $keys >> $filename");
+        }
 
         foreach ($json as $line) {
             static::getRidOfUnexpected($line, $except);
@@ -85,14 +101,16 @@ class Json
      * @param string|null $path
      * @param array $except
      */
-    private static function saveObjectAs($filename, $json, $except)
+    private function saveObjectAs($filename, $json, $except)
     {
         static::getRidOfUnexpected($json, $except);
 
-        $keys = implode(';', array_keys($json));
-        $values = implode(';', array_values($json));
+        if ($this->headerShown) {
+            $keys = implode(';', array_keys($json));
+            shell_exec("echo $keys >> $filename");
+        }
 
-        shell_exec("echo $keys >> $filename");
+        $values = implode(';', array_values($json));
         shell_exec("echo $values >> $filename");
     }
     /**

@@ -1,0 +1,85 @@
+{
+  "id": 3731183750407862300,
+  "ofdId": "ofd26",
+  "receiveDate": "2021-05-30T17:31:21Z",
+  "subtype": "receipt",
+  "address": "350087,Россия,Краснодарский край,Городской округ город Краснодар м.р-н.,,Краснодар г,,им Петра Метальникова ул,,Дом 26,,,,",
+  "content": {
+    "messageFiscalSign": 9297181306062367000,
+    "code": 3,
+    "fiscalDriveNumber": "9289440300668197",
+    "kktRegId": "0004132745034289    ",
+    "userInn": "2310031475  ",
+    "fiscalDocumentNumber": 96272,
+    "dateTime": 1622406600,
+    "fiscalSign": 1921563666,
+    "shiftNumber": 205,
+    "requestNumber": 430,
+    "operationType": 1,
+    "totalSum": 8184,
+    "items": [
+      {
+        "name": "АГУША Творог фрук груша/банан 3,7% с 6 мес 90г п",
+        "price": 1599,
+        "quantity": 1,
+        "sum": 1599,
+        "nds": 2,
+        "ndsSum": 145,
+        "paymentType": 4
+      },
+      {
+        "name": "СКРЕПЫШИ/ПРАЗДНИК СЛАСТЕНЫ Возд рис в карам 60г",
+        "price": 989,
+        "quantity": 1,
+        "sum": 989,
+        "nds": 2,
+        "ndsSum": 90,
+        "paymentType": 4
+      },
+      {
+        "name": "МОЯ ЦЕНА Каша овсяная с клубникой 35г(ТД Холдинг",
+        "price": 549,
+        "quantity": 2,
+        "sum": 1098,
+        "nds": 1,
+        "ndsSum": 183,
+        "paymentType": 4
+      },
+      {
+        "name": "ФРУКТ ОБЛ Йогурт 2,5% абрик 450г пюр/п(КубаньРус",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4
+      },
+      {
+        "name": "Творог обезжиренный 170г фл/п (МК Адыгейский):6",
+        "price": 2499,
+        "quantity": 1,
+        "sum": 2499,
+        "nds": 2,
+        "ndsSum": 227,
+        "paymentType": 4
+      }
+    ],
+    "cashTotalSum": 0,
+    "ecashTotalSum": 8184,
+    "prepaidSum": 0,
+    "creditSum": 0,
+    "provisionSum": 0,
+    "operator": "Продавец Репенко",
+    "appliedTaxationType": 1,
+    "fnsUrl": "www.nalog.ru",
+    "retailPlace": "Магазин \"Магнит\" Акорье",
+    "user": "Акционерное общество \"Тандер\"",
+    "retailPlaceAddress": "350087, Краснодарский край, Краснодар г, им Петра Метальникова ул, дом № 26",
+    "fiscalDocumentFormatVer": 2,
+    "nds18": 183,
+    "nds10": 644,
+    "region": "23",
+    "numberKkt": "00106205451480",
+    "redefine_mask": 0
+  }
+}

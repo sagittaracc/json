@@ -1,0 +1,291 @@
+{
+  "id": 3732815732704045600,
+  "ofdId": "ofd22",
+  "receiveDate": "2021-05-31T23:32:33Z",
+  "subtype": "receipt",
+  "address": "184250,Россия,Мурманская область,,,Кировск г,,Олимпийская ул,,д 8,литер а,,,",
+  "content": {
+    "messageFiscalSign": 9297239974698465000,
+    "code": 3,
+    "fiscalDriveNumber": "9280440300895234",
+    "kktRegId": "0002777151011870    ",
+    "userInn": "7825706086  ",
+    "fiscalDocumentNumber": 61542,
+    "dateTime": 1622491080,
+    "fiscalSign": 3726418357,
+    "shiftNumber": 167,
+    "requestNumber": 296,
+    "operationType": 1,
+    "totalSum": 164450,
+    "fiscalDocumentFormatVer": 2,
+    "items": [
+      {
+        "name": "Пакет ПЯТЕРОЧКА 65х40см",
+        "price": 599,
+        "quantity": 1,
+        "sum": 599,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*Пиво BUD свет.5% ж/б 0.45л",
+        "price": 5299,
+        "quantity": 1,
+        "sum": 5299,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*Пиво BUD свет.5% ж/б 0.45л",
+        "price": 5299,
+        "quantity": 1,
+        "sum": 5299,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*Пиво BUD свет.5% ж/б 0.45л",
+        "price": 5299,
+        "quantity": 1,
+        "sum": 5299,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*Пиво BUD свет.5% ж/б 0.45л",
+        "price": 5299,
+        "quantity": 1,
+        "sum": 5299,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*Пиво BUD свет.5% ж/б 0.45л",
+        "price": 5299,
+        "quantity": 1,
+        "sum": 5299,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*ЗД.ТР.Пряники РЖАНЫЕ завар.340г",
+        "price": 5499,
+        "quantity": 1,
+        "sum": 5499,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*P.PIG Труб.С.П.д/мол.фр.мик.30г",
+        "price": 4069,
+        "quantity": 1,
+        "sum": 4069,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*Нап.NEO ИМУНЕЛЕ земл1,2% 100г",
+        "price": 1999,
+        "quantity": 6,
+        "sum": 11994,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "Батон ПОДМОСКОВНЫЙ в/с нар.350г",
+        "price": 4599,
+        "quantity": 1,
+        "sum": 4599,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "Хлеб ДАРНИЦКИЙ нарезка 350г",
+        "price": 3419,
+        "quantity": 1,
+        "sum": 3419,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*DR.ME Нап.вк.яб-кар.газ.0,449л",
+        "price": 5499,
+        "quantity": 1,
+        "sum": 5499,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*OREOПЕЧ.MINI GOLDENн.ван.вк100г",
+        "price": 6579,
+        "quantity": 1,
+        "sum": 6579,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*ФН Сок груша б/сах.200мл",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*ФН Сок груша б/сах.200мл",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*ФН Сок груша б/сах.200мл",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "АГУША Хлеб.ЯБ-Б-ГР.мул.мини 30г",
+        "price": 4299,
+        "quantity": 1,
+        "sum": 4299,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*Дск Огурцы короткоплодные 450г",
+        "price": 6999,
+        "quantity": 1,
+        "sum": 6999,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*NEST.Пюре из яблок и банана 90г",
+        "price": 3599,
+        "quantity": 1,
+        "sum": 3599,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*ФН Сок груша б/сах.200мл",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*MARS Батон.MINIS шок.нуг/кар1кг",
+        "price": 44999,
+        "quantity": 0.15,
+        "sum": 6750,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "Капуста БЕЛОКОЧАННАЯ ран.1кг",
+        "price": 5299,
+        "quantity": 1.785,
+        "sum": 9459,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*NEST.Пюре из яблок и банана 90г",
+        "price": 3599,
+        "quantity": 1,
+        "sum": 3599,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*ОТ АТ.Семечки подс.обж.сол.100г",
+        "price": 2999,
+        "quantity": 1,
+        "sum": 2999,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*ОТ АТ.Семечки подс.обж.сол.100г",
+        "price": 2999,
+        "quantity": 1,
+        "sum": 2999,
+        "nds": 2,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*NIVEA Дезод.FOR MEN спрей 150мл",
+        "price": 17999,
+        "quantity": 1,
+        "sum": 17999,
+        "nds": 1,
+        "productType": 1,
+        "paymentType": 4
+      },
+      {
+        "name": "*СИГАРЕТЫ L&M BLUE LABEL",
+        "price": 14500,
+        "quantity": 1,
+        "sum": 14500,
+        "nds": 1,
+        "productType": 2,
+        "paymentType": 4
+      },
+      {
+        "name": "*СИГАРЕТЫ L&M BLUE LABEL",
+        "price": 14500,
+        "quantity": 1,
+        "sum": 14500,
+        "nds": 1,
+        "productType": 2,
+        "paymentType": 4
+      }
+    ],
+    "cashTotalSum": 0,
+    "ecashTotalSum": 164450,
+    "prepaidSum": 0,
+    "creditSum": 0,
+    "provisionSum": 0,
+    "nds18": 17083,
+    "nds10": 5634,
+    "appliedTaxationType": 1,
+    "operator": "Вулах Мария Викторовна, Продавец-каccир",
+    "operatorInn": "510300436616",
+    "user": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"АГРОТОРГ\"",
+    "retailPlace": "305E 16240-Пятерочка",
+    "region": "51",
+    "numberKkt": "00106909276269",
+    "redefine_mask": 14
+  }
+}

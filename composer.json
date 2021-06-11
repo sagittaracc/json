@@ -2,8 +2,7 @@
     "name": "sagittaracc/json",
     "autoload": {
         "classmap": [
-            "src/",
-            "tests"
+            "src/"
         ]
     },
     "require": {

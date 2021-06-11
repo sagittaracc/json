@@ -1,0 +1,171 @@
+{
+  "id": 3733376457437453300,
+  "ofdId": "ofd1",
+  "receiveDate": "2021-06-01T05:49:13Z",
+  "subtype": "receipt",
+  "address": "400075,Россия,Волгоградская область,,г Волгоград г.п.,,,ул Историческая элем. улично-дорожн.сети,,д. 175,,,,",
+  "content": {
+    "messageFiscalSign": 9297287774493508000,
+    "code": 3,
+    "fiscalDriveNumber": "9282440300971379",
+    "kktRegId": "0000498413024423    ",
+    "userInn": "7703270067  ",
+    "fiscalDocumentNumber": 42985,
+    "dateTime": 1622537280,
+    "fiscalSign": 1372456202,
+    "shiftNumber": 189,
+    "requestNumber": 53,
+    "operationType": 1,
+    "totalSum": 39600,
+    "operator": "Музаффаpова Веpоника",
+    "items": [
+      {
+        "name": "СЫР ГАУДА20% CHEESE",
+        "price": 32459,
+        "quantity": 0.172,
+        "nds": 2,
+        "ndsSum": 508,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 5583
+      },
+      {
+        "name": "GM ХЛЕБЦЫ ЛАЙТ ВАФ. С ВИТ.70Г",
+        "price": 2590,
+        "quantity": 1,
+        "nds": 2,
+        "ndsSum": 235,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 2590
+      },
+      {
+        "name": "СЕЛЬДЬ ФИЛЕКУБИКИ В",
+        "price": 6990,
+        "quantity": 1,
+        "nds": 2,
+        "ndsSum": 635,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 6990
+      },
+      {
+        "name": "ГУРМЭ ПЕРЛ УТКА 85Г",
+        "price": 2190,
+        "quantity": 1,
+        "nds": 1,
+        "ndsSum": 365,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 2190
+      },
+      {
+        "name": "ГУРМЭ А-ЛЯ-КАРТ ПТИЦА 85Г",
+        "price": 2190,
+        "quantity": 1,
+        "nds": 1,
+        "ndsSum": 365,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 2190
+      },
+      {
+        "name": "ГУРМЭ А-ЛЯ-КАРТ ГОВЯДИНА 85Г",
+        "price": 2190,
+        "quantity": 1,
+        "nds": 1,
+        "ndsSum": 365,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 2190
+      },
+      {
+        "name": "КЕФИР БД 0,1% 290Г ПЭТ",
+        "price": 2180,
+        "quantity": 1,
+        "nds": 2,
+        "ndsSum": 198,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 2180
+      },
+      {
+        "name": "СЛИВ УП 10% 20Г ПРОСТОКВАШИНО",
+        "price": 899,
+        "quantity": 1,
+        "nds": 2,
+        "ndsSum": 82,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 899
+      },
+      {
+        "name": "СЛИВ УП 10% 20Г ПРОСТОКВАШИНО",
+        "price": 899,
+        "quantity": 1,
+        "nds": 2,
+        "ndsSum": 82,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 899
+      },
+      {
+        "name": "КРАБОВОЕ МЯСО В СЫР СОУСЕ 200",
+        "price": 4977,
+        "quantity": 1,
+        "nds": 2,
+        "ndsSum": 452,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 4977
+      },
+      {
+        "name": "ГУРМЭ ГОЛД НЕЖНАЯ НАЧ ТУН 85Г",
+        "price": 2932,
+        "quantity": 1,
+        "nds": 1,
+        "ndsSum": 489,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 2932
+      },
+      {
+        "name": "ГУРМЭ ГОЛД НЕЖНАЯ НАЧ ЛОС 85Г",
+        "price": 2990,
+        "quantity": 1,
+        "nds": 1,
+        "ndsSum": 498,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 2990
+      },
+      {
+        "name": "ГУРМЭ ГОЛД НЕЖНАЯ НАЧ ГОВ 85Г",
+        "price": 2990,
+        "quantity": 1,
+        "nds": 1,
+        "ndsSum": 498,
+        "productType": 1,
+        "paymentType": 4,
+        "sum": 2990
+      }
+    ],
+    "nds18": 2580,
+    "nds10": 2192,
+    "user": "ООО \"АШАН\"",
+    "retailPlaceAddress": "400075  г. Волгогpад ул. Истоpическая, д.175",
+    "retailPlace": "Гипермаркет АШАН",
+    "appliedTaxationType": 1,
+    "cashTotalSum": 39600,
+    "ecashTotalSum": 0,
+    "prepaidSum": 0,
+    "creditSum": 0,
+    "provisionSum": 0,
+    "fiscalDocumentFormatVer": 2,
+    "fnsUrl": "www.nalog.ru",
+    "sellerAddress": "echeck@1-ofd.ru",
+    "region": "34",
+    "numberKkt": "0128033153",
+    "redefine_mask": 0
+  }
+}

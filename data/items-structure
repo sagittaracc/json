@@ -1,9 +1,0 @@
-{
-    "name": "string",
-    "price": "integer",
-    "quantity": "integer",
-    "nds": "integer",
-    "productType": "integer",
-    "paymentType": "integer",
-    "sum": "integer"
-}

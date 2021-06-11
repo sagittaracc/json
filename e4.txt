@@ -1,0 +1,545 @@
+{
+  "id": 3732061525407460000,
+  "ofdId": "ofd22",
+  "receiveDate": "2021-05-31T11:03:19Z",
+  "subtype": "receipt",
+  "address": "143402,Россия,Московская область,,, г. Красногорск, Жуковского ул, 17,,,,,,,,",
+  "content": {
+    "messageFiscalSign": 9297250585664608000,
+    "code": 3,
+    "fiscalDriveNumber": "9282440300849633",
+    "kktRegId": "0004713776014958    ",
+    "userInn": "7715277300  ",
+    "fiscalDocumentNumber": 31512,
+    "dateTime": 1622458980,
+    "fiscalSign": 1116894483,
+    "shiftNumber": 259,
+    "requestNumber": 23,
+    "operationType": 1,
+    "totalSum": 260619,
+    "properties": {
+      "propertyName": "Код",
+      "propertyValue": "5043"
+    },
+    "operatorInn": "502414395199",
+    "items": [
+      {
+        "name": "Грибы Шампиньоны МИНИ 300г",
+        "price": 8099,
+        "quantity": 1,
+        "sum": 8099,
+        "nds": 2,
+        "ndsSum": 736,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "ПЕТЕЛИНО Голень охл.на подл.1кг",
+        "price": 25199,
+        "quantity": 0.908,
+        "sum": 22881,
+        "nds": 2,
+        "ndsSum": 2080,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Дск Огурцы короткоплодные 450г",
+        "price": 9899,
+        "quantity": 1,
+        "sum": 9899,
+        "nds": 2,
+        "ndsSum": 900,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Дск Томаты на ветке        700г",
+        "price": 12059,
+        "quantity": 1,
+        "sum": 12059,
+        "nds": 2,
+        "ndsSum": 1096,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Картофель мытый 2,5кг",
+        "price": 14399,
+        "quantity": 1,
+        "sum": 14399,
+        "nds": 2,
+        "ndsSum": 1309,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*HAR.Мармелад ЧЕРВ.ВУМ.жев.155г",
+        "price": 7499,
+        "quantity": 1,
+        "sum": 7499,
+        "nds": 1,
+        "ndsSum": 1250,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Нап.NEO ИМУНЕЛЕ черник1,2% 100г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Нап.NEO ИМУНЕЛЕ черник1,2% 100г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Нап.NEO ИМУНЕЛЕ черник1,2% 100г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Нап.NEO ИМУНЕЛЕ черник1,2% 100г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Нап.NEO ИМУНЕЛЕ черник1,2% 100г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Нап.NEO ИМУНЕЛЕ черник1,2% 100г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*УХТЫШ.Сырки тв.ван.мол.к.гл120г",
+        "price": 6499,
+        "quantity": 1,
+        "sum": 6499,
+        "nds": 2,
+        "ndsSum": 591,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Бананы 1кг",
+        "price": 6119,
+        "quantity": 0.666,
+        "sum": 4075,
+        "nds": 1,
+        "ndsSum": 679,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Яблоко сезонное 1кг",
+        "price": 7197,
+        "quantity": 0.262,
+        "sum": 1886,
+        "nds": 2,
+        "ndsSum": 171,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Груша желтая 1кг",
+        "price": 9999,
+        "quantity": 0.318,
+        "sum": 3180,
+        "nds": 2,
+        "ndsSum": 289,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Г.СЫРА Сыр ГУРМ.пл.кол.нар.150г",
+        "price": 7379,
+        "quantity": 1,
+        "sum": 7379,
+        "nds": 2,
+        "ndsSum": 671,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Сахар прес/Сахар бел.куск.1кг",
+        "price": 6659,
+        "quantity": 1,
+        "sum": 6659,
+        "nds": 2,
+        "ndsSum": 605,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*ТЕНД.Сахар-песок/Сахар бел.1кг",
+        "price": 4599,
+        "quantity": 1,
+        "sum": 4599,
+        "nds": 2,
+        "ndsSum": 418,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*ТЕНД.Сахар-песок/Сахар бел.1кг",
+        "price": 4599,
+        "quantity": 1,
+        "sum": 4599,
+        "nds": 2,
+        "ndsSum": 418,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*САРАФ.Мор.эск.пломб.ван.гл.75г",
+        "price": 4799,
+        "quantity": 1,
+        "sum": 4799,
+        "nds": 2,
+        "ndsSum": 436,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Р.ХОЛ.Морож.пл.ван.ваф.ст.150г",
+        "price": 5999,
+        "quantity": 1,
+        "sum": 5999,
+        "nds": 2,
+        "ndsSum": 545,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Б.П.Пр.ВЗ.УР.фр/л сл/з 2.9%54мл",
+        "price": 4589,
+        "quantity": 1,
+        "sum": 4589,
+        "nds": 1,
+        "ndsSum": 765,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "СТ.МОЛ.Масло ТРАД.сл.82,5% 175г",
+        "price": 9899,
+        "quantity": 1,
+        "sum": 9899,
+        "nds": 2,
+        "ndsSum": 900,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*М/М Молоко пит.дет.3,2% 200мл",
+        "price": 2143,
+        "quantity": 1,
+        "sum": 2143,
+        "nds": 2,
+        "ndsSum": 195,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*М/М Молоко пит.дет.3,2% 200мл",
+        "price": 2142,
+        "quantity": 1,
+        "sum": 2142,
+        "nds": 2,
+        "ndsSum": 195,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*М/М Молоко пит.дет.3,2% 200мл",
+        "price": 2142,
+        "quantity": 1,
+        "sum": 2142,
+        "nds": 2,
+        "ndsSum": 195,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "H.KID Сок ябл.восст.освет.200мл",
+        "price": 1799,
+        "quantity": 1,
+        "sum": 1799,
+        "nds": 2,
+        "ndsSum": 164,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Р.М.Сел.СЕЛЕД.НА ПЕРЕК.в/м 150г",
+        "price": 7064,
+        "quantity": 1,
+        "sum": 7064,
+        "nds": 2,
+        "ndsSum": 642,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*ГУР.ПЕРЛ Корм д/кош.кон.кур.85г",
+        "price": 2000,
+        "quantity": 1,
+        "sum": 2000,
+        "nds": 1,
+        "ndsSum": 333,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*ГУР.ПЕРЛ Корм д/кош.кон.кур.85г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 1,
+        "ndsSum": 333,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*ГУР.ПЕРЛ Корм д/кош.кон.кур.85г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 1,
+        "ndsSum": 333,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "БЗМЖ СТ.МОЛ.Молоко цел.отб.930г",
+        "price": 4769,
+        "quantity": 1,
+        "sum": 4769,
+        "nds": 2,
+        "ndsSum": 434,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "САРАФ.Кефир дет.3,2% 930г",
+        "price": 6479,
+        "quantity": 1,
+        "sum": 6479,
+        "nds": 2,
+        "ndsSum": 589,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Брецель с кунжутом 96г",
+        "price": 1439,
+        "quantity": 1,
+        "sum": 1439,
+        "nds": 2,
+        "ndsSum": 131,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*НЕВ.СУШ.Сушка-мини Соленые200г",
+        "price": 4999,
+        "quantity": 1,
+        "sum": 4999,
+        "nds": 2,
+        "ndsSum": 454,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*НЕВ.СУШ.Сушка-мини Соленые200г",
+        "price": 4999,
+        "quantity": 1,
+        "sum": 4999,
+        "nds": 2,
+        "ndsSum": 454,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*М/М Молоко пит.дет.3,2% 200мл",
+        "price": 2142,
+        "quantity": 1,
+        "sum": 2142,
+        "nds": 2,
+        "ndsSum": 195,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*М/М Молоко пит.дет.3,2% 200мл",
+        "price": 2142,
+        "quantity": 1,
+        "sum": 2142,
+        "nds": 2,
+        "ndsSum": 195,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*М/М Молоко пит.дет.3,2% 200мл",
+        "price": 2142,
+        "quantity": 1,
+        "sum": 2142,
+        "nds": 2,
+        "ndsSum": 195,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*М/М Молоко пит.дет.3,2% 200мл",
+        "price": 2142,
+        "quantity": 1,
+        "sum": 2142,
+        "nds": 2,
+        "ndsSum": 195,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "ЗОЛ.СЕМЕЧКА Масло подсол.раф.1л",
+        "price": 9899,
+        "quantity": 1,
+        "sum": 9899,
+        "nds": 2,
+        "ndsSum": 900,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "БЛАГО Масло подс.н/р в/с 0,65л",
+        "price": 9359,
+        "quantity": 1,
+        "sum": 9359,
+        "nds": 2,
+        "ndsSum": 851,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Печ.ЧОКО БОЙ с обогащ.доб. 45г",
+        "price": 4229,
+        "quantity": 1,
+        "sum": 4229,
+        "nds": 1,
+        "ndsSum": 705,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*АГУША Пюре яб/груши/бан/ман.90г",
+        "price": 3299,
+        "quantity": 1,
+        "sum": 3299,
+        "nds": 2,
+        "ndsSum": 300,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*АГУША Пюре яб/груши/бан/ман.90г",
+        "price": 3299,
+        "quantity": 1,
+        "sum": 3299,
+        "nds": 2,
+        "ndsSum": 300,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "К.Ц.Яйца кур.стол.С0 10шт",
+        "price": 7379,
+        "quantity": 1,
+        "sum": 7379,
+        "nds": 2,
+        "ndsSum": 671,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "ЮБИЛ.Печенье витамин.св.гл.121г",
+        "price": 4274,
+        "quantity": 1,
+        "sum": 4274,
+        "nds": 1,
+        "ndsSum": 712,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*NESQUIK Шок.мол.нач/кальц.100г",
+        "price": 4999,
+        "quantity": 1,
+        "sum": 4999,
+        "nds": 1,
+        "ndsSum": 833,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Шок.KIND.CH.мол.с мол.нач. 100г",
+        "price": 10349,
+        "quantity": 1,
+        "sum": 10349,
+        "nds": 1,
+        "ndsSum": 1725,
+        "paymentType": 4,
+        "productType": 1
+      }
+    ],
+    "machineNumber": "0578020012177180",
+    "cashTotalSum": 0,
+    "ecashTotalSum": 260619,
+    "prepaidSum": 0,
+    "creditSum": 0,
+    "provisionSum": 0,
+    "fnsUrl": "nalog.ru",
+    "retailPlace": "5043; 047 - г.Красногорск, Жуковского ул.;",
+    "fiscalDocumentFormatVer": 2,
+    "nds18": 7668,
+    "nds10": 19512,
+    "user": "ООО \"АГРОАСПЕКТ\"",
+    "retailPlaceAddress": "143402, 50 - Московская область, г. Красногорск, Жуковского ул, 17;",
+    "appliedTaxationType": 1,
+    "region": "50",
+    "numberKkt": "0578020012177180",
+    "redefine_mask": 0
+  }
+}

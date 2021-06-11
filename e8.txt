@@ -1,0 +1,127 @@
+{
+  "id": 3733392891147084000,
+  "ofdId": "ofd7",
+  "receiveDate": "2021-06-01T06:05:57Z",
+  "subtype": "receipt",
+  "address": "614990,Россия,Пермский край,,г Пермь г.п.,,,ул Революции элем. улично-дорожн.сети,,д. д 13,,,,",
+  "content": {
+    "messageFiscalSign": 9297382367068787000,
+    "code": 3,
+    "fiscalDriveNumber": "9280440300808983",
+    "kktRegId": "0000334742031730    ",
+    "userInn": "5902192910  ",
+    "fiscalDocumentNumber": 105933,
+    "dateTime": 1622545500,
+    "fiscalSign": 2946170008,
+    "shiftNumber": 264,
+    "requestNumber": 5,
+    "operationType": 1,
+    "totalSum": 36100,
+    "fiscalDocumentFormatVer": 2,
+    "operator": "Горохова Ю.Л.",
+    "appliedTaxationType": 1,
+    "items": [
+      {
+        "name": "КАРТОФЕЛЬ СВЕЖИЙ/ИМПОРТ У  2.222 X    69.90",
+        "price": 6291,
+        "quantity": 2.222,
+        "sum": 13979,
+        "nds": 2,
+        "ndsSum": 1271,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "МАК.ИЗД.ПРОСТО МАКАРОНЫ В  1.000 X    24.90",
+        "price": 2490,
+        "quantity": 1,
+        "sum": 2490,
+        "nds": 2,
+        "ndsSum": 226,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "МАК.ИЗД.ПРОСТО МАКАРОНЫ С  1.000 X    24.90",
+        "price": 2490,
+        "quantity": 1,
+        "sum": 2490,
+        "nds": 2,
+        "ndsSum": 226,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "МАК.ИЗД.ПРОСТО МАКАРОНЫ С  1.000 X    24.90",
+        "price": 2490,
+        "quantity": 1,
+        "sum": 2490,
+        "nds": 2,
+        "ndsSum": 226,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "МАК.ИЗД.ПРОСТО МАКАРОНЫ В  1.000 X    24.90",
+        "price": 2490,
+        "quantity": 1,
+        "sum": 2490,
+        "nds": 2,
+        "ndsSum": 226,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "БАТОН НАРЕЗНОЙ МОЛОЧНЫЙ П  1.000 X    30.90",
+        "price": 2781,
+        "quantity": 1,
+        "sum": 2781,
+        "nds": 2,
+        "ndsSum": 253,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "ХЛЕБ ДАРНИЦКИЙ ПОДОВЫЙ НА  1.000 X    42.90",
+        "price": 3818,
+        "quantity": 1,
+        "sum": 3818,
+        "nds": 2,
+        "ndsSum": 347,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "БАТОН НАРЕЗНОЙ МОЛОЧНЫЙ П  1.000 X    30.90",
+        "price": 2781,
+        "quantity": 1,
+        "sum": 2781,
+        "nds": 2,
+        "ndsSum": 253,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "БАТОН НАРЕЗНОЙ МОЛОЧНЫЙ П  1.000 X    30.90",
+        "price": 2781,
+        "quantity": 1,
+        "sum": 2781,
+        "nds": 2,
+        "ndsSum": 253,
+        "paymentType": 4,
+        "productType": 1
+      }
+    ],
+    "nds10": 3281,
+    "cashTotalSum": 36100,
+    "ecashTotalSum": 0,
+    "creditSum": 0,
+    "provisionSum": 0,
+    "prepaidSum": 0,
+    "user": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"БОЛЬШАЯ СЕМЬЯ\"",
+    "retailPlace": "магазин \"СемьЯ\"",
+    "region": "59",
+    "numberKkt": "0254100100196",
+    "redefine_mask": 10
+  }
+}

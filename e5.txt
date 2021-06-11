@@ -1,0 +1,175 @@
+{
+  "id": 3733388835909427000,
+  "ofdId": "ofd22",
+  "receiveDate": "2021-06-01T09:01:55Z",
+  "subtype": "receipt",
+  "address": "660098,Россия,Красноярский край,,,Красноярск г,,Водопьянова ул,,д 12,,,пом 79,",
+  "content": {
+    "messageFiscalSign": 9297172128044188000,
+    "code": 3,
+    "fiscalDriveNumber": "9282440300723732",
+    "kktRegId": "0003729805050766    ",
+    "userInn": "7825706086  ",
+    "fiscalDocumentNumber": 124301,
+    "dateTime": 1622552460,
+    "fiscalSign": 1662209554,
+    "shiftNumber": 304,
+    "requestNumber": 152,
+    "operationType": 1,
+    "totalSum": 89600,
+    "properties": {
+      "propertyName": "Код",
+      "propertyValue": "366E"
+    },
+    "operatorInn": "245015082824",
+    "items": [
+      {
+        "name": "Пакет ПЯТЕРОЧКА 65х40см",
+        "price": 599,
+        "quantity": 1,
+        "sum": 599,
+        "nds": 1,
+        "ndsSum": 100,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "H.KID Вода д/дет.негаз. 5л",
+        "price": 6999,
+        "quantity": 1,
+        "sum": 6999,
+        "nds": 2,
+        "ndsSum": 636,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "НАШ ХЛЕБ Хлеб из пш.муки 400г",
+        "price": 1599,
+        "quantity": 1,
+        "sum": 1599,
+        "nds": 2,
+        "ndsSum": 145,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*КАБОШ Сыр УГЛИЧСКИЙ п/тв.200г",
+        "price": 10999,
+        "quantity": 1,
+        "sum": 10999,
+        "nds": 2,
+        "ndsSum": 1000,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*КАБОШ Сыр УГЛИЧСКИЙ п/тв.200г",
+        "price": 10999,
+        "quantity": 1,
+        "sum": 10999,
+        "nds": 2,
+        "ndsSum": 1000,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*ИЗ БЕР.Сметана 25% 200г",
+        "price": 3999,
+        "quantity": 1,
+        "sum": 3999,
+        "nds": 2,
+        "ndsSum": 364,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*АГУША Творог клуб/бан/мел.100г",
+        "price": 2399,
+        "quantity": 2,
+        "sum": 4798,
+        "nds": 2,
+        "ndsSum": 436,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*РАСТ.Йог.густ.об.мал/бан.3%110г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*ДАНОН Йог.РАСТИШ.ябл-гр.3% 110г",
+        "price": 1999,
+        "quantity": 1,
+        "sum": 1999,
+        "nds": 2,
+        "ndsSum": 182,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*LOR.Палоч.SALTL.сол.клас.75г",
+        "price": 2399,
+        "quantity": 2,
+        "sum": 4798,
+        "nds": 2,
+        "ndsSum": 436,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*LOR.Палоч.SALTL сол.клас150г",
+        "price": 5299,
+        "quantity": 1,
+        "sum": 5299,
+        "nds": 2,
+        "ndsSum": 482,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "СЛАВ.Мор.СОВ.пл.ван.ваф.ст.100г",
+        "price": 3899,
+        "quantity": 4,
+        "sum": 15596,
+        "nds": 2,
+        "ndsSum": 1418,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*Нап.САН.СТЕФ.газ.роз.п/сл.0.75л",
+        "price": 19999,
+        "quantity": 1,
+        "sum": 19999,
+        "nds": 1,
+        "ndsSum": 3333,
+        "paymentType": 4,
+        "productType": 2
+      }
+    ],
+    "operator": "Титова Ирина Николаевна, Продавец-каccир",
+    "cashTotalSum": 89600,
+    "ecashTotalSum": 0,
+    "prepaidSum": 0,
+    "creditSum": 0,
+    "provisionSum": 0,
+    "fnsUrl": "nalog.ru",
+    "retailPlace": "366E; 17901 - Пятёрочка; ",
+    "fiscalDocumentFormatVer": 2,
+    "nds18": 3433,
+    "nds10": 6281,
+    "user": "ООО \"Агроторг\"",
+    "retailPlaceAddress": "660098, 24, Красноярский край, г. Красноярск, ул. Водопьянова, д. 12, пом.79; ",
+    "appliedTaxationType": 1,
+    "region": "24",
+    "numberKkt": "0284450012086616",
+    "redefine_mask": 0
+  }
+}

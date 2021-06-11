@@ -1,0 +1,97 @@
+{
+  "id": 3732473985141913600,
+  "ofdId": "ofd22",
+  "receiveDate": "2021-05-31T17:53:02Z",
+  "subtype": "receipt",
+  "address": "142275,Россия,Московская область,Серпухов г.о.,,,,Данковское сельское поселение,Турово с,Центральная ул,, стр.37,,,,",
+  "content": {
+    "messageFiscalSign": 9297386063074343000,
+    "code": 3,
+    "fiscalDriveNumber": "9280440301234696",
+    "kktRegId": "0001518574000659    ",
+    "userInn": "7825706086  ",
+    "fiscalDocumentNumber": 7333,
+    "dateTime": 1622482440,
+    "fiscalSign": 964917274,
+    "shiftNumber": 143,
+    "requestNumber": 51,
+    "operationType": 1,
+    "totalSum": 45915,
+    "properties": {
+      "propertyName": "Код",
+      "propertyValue": "H189"
+    },
+    "operatorInn": "771317568310",
+    "buyerPhoneOrAddress": "MrRellik@Ya.ru",
+    "sellerAddress": "test@ofd.ru",
+    "items": [
+      {
+        "name": "*ГЕРКУЛЕС Хлеб зерн.в нарез.500г",
+        "price": 6899,
+        "quantity": 1,
+        "sum": 6899,
+        "nds": 2,
+        "ndsSum": 627,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*ТЫС.ОЗ.Сыр СЛИВОЧНЫЙ 50% 125г",
+        "price": 9499,
+        "quantity": 1,
+        "sum": 9499,
+        "nds": 2,
+        "ndsSum": 864,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*РУБЛ.Шейка C.DI POR.свин.с/в50г",
+        "price": 12499,
+        "quantity": 1,
+        "sum": 12499,
+        "nds": 1,
+        "ndsSum": 2083,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "*РУБЛ.Шейка C.DI POR.свин.с/в50г",
+        "price": 12499,
+        "quantity": 1,
+        "sum": 12499,
+        "nds": 1,
+        "ndsSum": 2083,
+        "paymentType": 4,
+        "productType": 1
+      },
+      {
+        "name": "Вода АРКТИК пит.прир.н/газ.  2л",
+        "price": 4519,
+        "quantity": 1,
+        "sum": 4519,
+        "nds": 1,
+        "ndsSum": 753,
+        "paymentType": 4,
+        "productType": 1
+      }
+    ],
+    "operator": "Cайко Cветлана Юрьевна, Продавец-каccир",
+    "cashTotalSum": 0,
+    "ecashTotalSum": 45915,
+    "prepaidSum": 0,
+    "creditSum": 0,
+    "provisionSum": 0,
+    "fnsUrl": "www.nalog.ru",
+    "retailPlace": "H189 12609-Пятерочка",
+    "fiscalDocumentFormatVer": 2,
+    "nds18": 4919,
+    "nds10": 1491,
+    "user": "Агроторг ООО",
+    "retailPlaceAddress": "142275, 50, СЕРПУХОВСКИЙ Р-Н, ДАНКОСКОЕ СЕЛЬСКОГО ПОСЕЛЕНИЕ, ТУРОВО С, ЦЕНТРАЛЬНАЯ УЛ, СТР.37А",
+    "appliedTaxationType": 1,
+    "region": "50",
+    "numberKkt": "0500850012097456",
+    "redefine_mask": 0
+  }
+}
