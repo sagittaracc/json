@@ -22,6 +22,10 @@ class Json
      */
     private $headerShown = true;
     /**
+     * @var string строка поиска в json
+     */
+    private $path = null;
+    /**
      * Загружает json данные
      * @param string $input может быть json строкой или путь к файлу .json
      */
@@ -54,19 +58,28 @@ class Json
         return $this;
     }
     /**
+     * Задать path
+     * @param string $path
+     */
+    public function setPath($path)
+    {
+        $this->path = $path;
+
+        return $this;
+    }
+    /**
      * Запись в файл
      * @param string $filename
-     * @param string|null $path
      * @param array $except
      */
-    public function saveAs($filename, $path = null, $except = [])
+    public function saveAs($filename, $except = [])
     {
         if ($this->structure) {
             $this->saveStructureAs($filename);
             return;
         }
 
-        $json = ArrayHelper::getValue($this->jsonData, $path);
+        $json = ArrayHelper::getValue($this->jsonData, $this->path);
 
         if (ArrayHelper::isSequential($json)) {
             $this->saveArrayAs($filename, $json, $except);
@@ -78,7 +91,7 @@ class Json
     /**
      * Сохраняет массив из json
      * @param string $filename
-     * @param string|null $path
+     * @param array $json
      * @param array $except
      */
     private function saveArrayAs($filename, $json, $except)
@@ -98,7 +111,7 @@ class Json
     /**
      * Сохраняет объект из json
      * @param string $filename
-     * @param string|null $path
+     * @param array $json
      * @param array $except
      */
     private function saveObjectAs($filename, $json, $except)
@@ -115,14 +128,13 @@ class Json
     }
     /**
      * Структура json
-     * @param string|null $path
      * @param array $except
      */
-    public function getStructure($path = null, $except = [])
+    public function getStructure($except = [])
     {
         $this->structure = [];
 
-        $json = ArrayHelper::getValue($this->jsonData, $path);
+        $json = ArrayHelper::getValue($this->jsonData, $this->path);
 
         if (ArrayHelper::isSequential($json)) {
             $this->getArrayStructure($json, $except);
