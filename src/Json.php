@@ -14,15 +14,16 @@ class Json
      */
     private $jsonData;
     /**
-     * @var array буффер
+     * @var array структура
      */
-    private $buf;
+    private $structure;
     /**
      * Загружает json данные
      * @param string $input может быть json строкой или путь к файлу .json
      */
     function __construct($input)
     {
+        $this->structure = [];
         $jsonData = json_decode($input, true);
 
         if (!$jsonData) {
@@ -54,6 +55,10 @@ class Json
         }
         else {
             $this->saveObjectAs($filename, $json, $except);
+        }
+
+        if ($this->structure) {
+            $this->saveStructureAs($filename);
         }
     }
     /**
@@ -91,7 +96,57 @@ class Json
         shell_exec("echo $values >> $filename");
     }
     /**
+     * Структура json
+     * @param string|null $path
+     * @param array $except
+     */
+    public function getStructure($path = null, $except = [])
+    {
+        $json = ArrayHelper::getValue($this->jsonData, $path);
+
+        if (ArrayHelper::isSequential($json)) {
+            $this->getArrayStructure($json, $except);
+        }
+        else {
+            $this->getObjectStructure($json, $except);
+        }
+    }
+    /**
+     * Структура объекта
+     * @param array $json
+     * @param array $except
+     */
+    private function getObjectStructure($json, $except)
+    {
+        $this->getRidOfUnexpected($json, $except);
+
+        foreach ($json as $key => $value) {
+            $this->structure[$key] = gettype($value);
+        }
+    }
+    /**
+     * Структура массива
+     * @param array $json
+     * @param array $except
+     */
+    private function getArrayStructure($json, $except)
+    {
+        $this->getObjectStructure($json[0], $except);
+    }
+    /**
+     * Сохранение структуры
+     * @param string $filename
+     */
+    private function saveStructureAs($filename)
+    {
+        foreach ($this->structure as $column => $type) {
+            shell_exec("echo $column:$type >> $filename");
+        }
+    }
+    /**
      * Вырезать ненужное из массива
+     * @param array $json
+     * @param array $except
      */
     private static function getRidOfUnexpected(&$json, $except)
     {
