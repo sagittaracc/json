@@ -118,7 +118,7 @@ class Json
      * @param string|null $path
      * @param array $except
      */
-    public function getStructure($except = [], $path = null)
+    public function getStructure($path = null, $except = [])
     {
         $this->structure = [];
 

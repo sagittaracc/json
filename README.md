@@ -17,7 +17,7 @@ for ($i = 1; $i <= 2; $i++) {
     $json->saveAs('data/items.csv', 'content.items');
 }
 
-$json->getStructure(['content'])->saveAs('data/receipt-structure');
-$json->getStructure(['items'], 'content')->saveAs('data/content-structure');
-$json->getStructure([], 'content.items')->saveAs('data/items-structure');
+$json->getStructure(null, ['content'])->saveAs('data/receipt-structure');
+$json->getStructure('content', ['items'])->saveAs('data/content-structure');
+$json->getStructure('content.items')->saveAs('data/items-structure');
 ```
