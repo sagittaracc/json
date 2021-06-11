@@ -9,8 +9,16 @@ final class JsonLoadTest extends TestCase
 {
     public function testLoadJsonFromString(): void
     {
-        Json::load('e1.txt')->saveAs('test.csv', 'content.items');
-        Json::load('e1.txt')->getStructure(['content'])->saveAs('test-structure.txt');
+        $json = JSON::load('e1.txt');
+
+        $json->saveAs('receipt.csv', null, ['content']);
+        $json->saveAs('content.csv', 'content', ['items']);
+        $json->saveAs('items.csv', 'content.items');
+
+        $json->getStructure(['content'])->saveAs('receipt-structure');
+        $json->getStructure(['items'], 'content')->saveAs('content-structure');
+        $json->getStructure([], 'content.items')->saveAs('items-structure');
+
         $this->assertTrue(true);
     }
 }

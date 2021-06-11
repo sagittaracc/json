@@ -23,7 +23,6 @@ class Json
      */
     function __construct($input)
     {
-        $this->structure = [];
         $jsonData = json_decode($input, true);
 
         if (!$jsonData) {
@@ -103,6 +102,8 @@ class Json
      */
     public function getStructure($except = [], $path = null)
     {
+        $this->structure = [];
+
         $json = ArrayHelper::getValue($this->jsonData, $path);
 
         if (ArrayHelper::isSequential($json)) {
